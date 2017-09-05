@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int n, m=1;
+  cout << "Please put in a number:\n";
+  cin >> n ;
+  for(int i=n; i>=1; --i)
+    m = m * i;
+  cout << m << '\n';
+  return 0;
+
+}
