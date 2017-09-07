@@ -1,3 +1,6 @@
+/*   
+     Author: Fan Yang
+*/
 #include <iostream>
 using namespace std;
 
