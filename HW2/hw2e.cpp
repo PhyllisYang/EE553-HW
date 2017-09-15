@@ -50,19 +50,17 @@ int fibo2(int d)
 
 }
 
-double choose(int e, int f)
+unsigned long long choose(int e, int f)
 {
     int h=e-f;
-    double g,i,j;
-    double k;
-    g=fact2(e);
-    i=fact2(f);
-    j=fact2(h);
-    k=g/(i*j);
-    return k;
-    
-
+    unsigned long k=1,j,r;
+    for(int i=h; i<=e; i++)
+        k*=i;
+    j=fact(f);
+    r=k/j;
+    return r;
 }
+
 
 int main()
 {
