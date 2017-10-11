@@ -106,7 +106,7 @@ public:
     }
 };
 int main() {
-    GameOLife gol("/Users/fanyang/Downloads/hw3b.txt");
+    GameOLife gol("hw3b.dat");
     gol.controlPrint();
     return 0;
 }
