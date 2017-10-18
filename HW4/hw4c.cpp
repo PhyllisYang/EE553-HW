@@ -1,3 +1,8 @@
+/*
+  Author: Fan Yang
+ cite: Jiabin Li
+     Discuss about the method to make Hex to Dec.
+ */
 #include <iostream>
 #include <iomanip>
 using namespace std;
